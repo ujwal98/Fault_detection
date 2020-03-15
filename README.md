@@ -1,9 +1,10 @@
 # Fault_detection
 Fault Detection, Classification and Isolation using Machine Learning models
 
-In this project, we'll be building simple Machine learning models(Classifiers) to detect fault, classify it into L-G or L-L or L-L-L fault and to isolate the fault so as to know in which zone did the fault occur
-Faults are one of the most commonly occuring phenomenon in a power system 
-To detect the fault is also important for a power system to maintain it's stability
+In this project, we'll be building simple Machine learning models(Classifiers) to detect fault, classify it into L-G or L-L or L-L-L fault and to isolate the fault so as to know in which zone did the fault occur.
+
+Faults are one of the most commonly occuring phenomenon in a power system .
+To detect the fault is also important for a power system to maintain it's stability.
 
 In this code, we make use of GaussianNb and DecisionTreeClassifier to create three Simple Machine Learning models to solve the above mentioned problems
 The data we are using in this project is fairly clean, so it won't be needing any pre-processing
