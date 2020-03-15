@@ -10,7 +10,7 @@ In this code, we make use of GaussianNb and DecisionTreeClassifier to create thr
 The data we are using in this project is fairly clean, so it won't be needing any pre-processing
 
 The input variables to all our models are per unit values of currents and volatges in different lines (Ic,Ib,Ia,Vc,Vb,Va)
-The output of our first model is a single value which is either '1' or '0'. '1' corresponds to a fault in the system while '0' doesn't.
+The output of our first model is a single value which is either '1' or '0'. An output of '1' means there is a fault in the system and '0' means that the system has no fault.
 
 The output of our second model is an array of four values which are all again either '1' or '0'. These four values correspond to ['G','C','B','A']. This lets us know what kind of fault it is. For example, if the output is [1,0,0,1], it is an L-G fault with A-phase and ground shorted. If the output is [0,1,1,1], it is a L-L-L fault.
 
