@@ -24,6 +24,8 @@ The output of our second model is an array of four values which are all again ei
 
 The output of the third model is an array of three elements which are all either '1' or '0'. These three values correspond to ['Zone 3','Zone 2','Zone 1'] . This indicates where the fault occured.
 
+However, when you run the code you'll be getting output of our model's evaluation. The first three lines(or numbers) are mean squared errors of our models and the next three lines are accuracy scores of our models.
+
 
 # Model
 In this code, we make use of GaussianNb and DecisionTreeClassifier to create three Simple Machine Learning models to solve the above mentioned problems. 
