@@ -9,7 +9,7 @@ Please note that although I'll be calling the problems fault_detection, fault_cl
 
 
 # Dataset
-The data we are using in this project is fairly clean, so it won't be needing any pre-processing. The data for detection and isolation are divided into train and test data beforehand. However, the classification data is not available that way. So we'll be using train_test_split method from sklear.metrics to divide the data into train_batch and test_batch
+The data we are using in this project is fairly clean, so it won't be needing any pre-processing. The data for detection and isolation are divided into train and test data beforehand. However, the classification data is not available that way. So we'll be using train_test_split method from sklearn.metrics to divide the data into train_batch and test_batch
 
 
 # Input
@@ -27,5 +27,5 @@ The output of the third model is an array of three elements which are all either
 
 # Model
 In this code, we make use of GaussianNb and DecisionTreeClassifier to create three Simple Machine Learning models to solve the above mentioned problems. 
-We are using DecisionTreeClassifier for fault_classification and fault_isolation as they are multi-class classification problems and looking at the data we can say that a tree is better  suited for these problems as the current in a branch changes drastically when a fault. 
+We are using DecisionTreeClassifier for fault_classification and fault_isolation as they are multi-class classification problems and looking at the data we can say that a tree is better  suited for these problems as the current in a branch changes drastically when a fault occurs. 
 So, DecsionTreeClassifier would provide a better chance to obtain an accuracy score of 1.0 or closer  to 1.0
